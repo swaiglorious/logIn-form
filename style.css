@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    
+    background-color:antiquewhite;
+    
+        
+    
+}
+body h1{
+    margin-top: 160px;
+
+    position:center;
+    text-align: center;
+    color:darkgreen;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#reg{
+    
+    margin:auto;
+    margin-top: 2em;
+    padding:25px 75px;
+    position:center;
+    text-align: center;
+    width: 320px;
+    height: 290px;
+    margin-top: 50px ;
+    border-style: inset;
+    border-color: #000;
+    border-radius: 20px;
+}
+
+p{
+    color: #000 ;
+    display: inline-block;
+    margin-right: 65px;
+    margin-left: -85px;
+
+}
+
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin:-5em;
+    
+    
+}
+input[type=checkbox]{
+    display: inline-block;
+margin-right: 30px;
+}
+
+input[type=submit]{
+    content: icon;
+    color: darkgreen ;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight:bolder;
+    height: 30px;
+    width:90px;
+    border-radius: 25px;
+    margin:2em;
+    align-items: center;
+}
+a:link{
+    background-color: #fff;
+    color: darkcyan;
+    text-decoration: none;
+    margin-left: 260px;
+     padding: 20px 30px;
+     border-radius: 18px;
+}
+a:active{
+    
+    color: cyan;
+   
+}
+
+/*Signup styling*/
+ #registration{
+     margin: auto;
+    margin-top: 2em;
+    padding:25px 75px;
+     position: center;
+     text-align: center;
+    /*background-color: #fff;*/
+    width:450px;
+    height:550px;
+    border-style: inset;
+    border-color: #000,0.1;
+    border-radius: 20px;
+    
+
+}
+h2{
+    margin-top: 10px;
+margin-bottom: 30px;
+     color:darkgreen;
+     font-size: 30pt;
+     font-family: Arial,
+     Helvetica,
+     sans-serif;
+}
+ 
+#regn{
+    margin: 0;
+    padding: 0;
+}
+label{
+
+    /*vertical-align: 30%;*/
+    color: #000;
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 35px;
+
+}
+input[type=datetime]{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin:-5em;
+    
+}
+select{
+    
+    width: 190px;
+    height: 40px;
+    cursor: pointer;
+    position:relative;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: -100px;
+    margin-left: 0px;
+    /*align-items: center;
+    left: 90%;
+    right: 30%;*/
+    
+}
+input[type=password]{
+     width: 200px;
+     height: 30px;
+     border-radius: 20px;
+     padding-right: 20px;
+     margin:-5em;
+}
+input[type=tel] {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin: -5em;
+}
